@@ -6,7 +6,6 @@ GERBERS_ZIP=$(OUTPUT_DIR)/8_inch_floppy_adapter_gerbers.zip
 
 KICAD_CLI=kicad-cli
 
-
 GERBERS_ZIP: $(KICAD_PCB)
 	mkdir -p $(OUTPUT_DIR)
 	mkdir -p $(GERBERS_DIR)
